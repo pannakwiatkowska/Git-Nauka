@@ -1,0 +1,19 @@
+body {
+}
+  h1
+  {
+   background-color: PaleGoldenRod;
+  font-family: Tahoma;
+  color: SaddleBrown;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+h2
+  {
+  
+  font-family: Times;
+  color: Black;
+  text-align: left;
+ 
+  }
