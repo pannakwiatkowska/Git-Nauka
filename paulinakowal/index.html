@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/icons/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+       
+        <meta name="description" content="Flickr API">
+		<title>Flickr API</title>
+	</head>
+    <body>
+        <div class="main-container clearfix">
+            <form class="flickr-api-form clearfix" action="">
+                <button type="submit" class="flickr-api-form-button" id="search-button">Szukaj</button>
+                <input class="flickr-api-form-input" id="search-input">
+            </form>
+
+            <div class="search-parameters">
+
+                <div class="accuracy">
+                        <p>Sortuj po:</p>
+                        <p id="accuracy">Trafności</p>
+                        <p id="data">Dacie</p>
+                    </div>
+
+                <div class="value-search">
+                        <p>Szukaj po:</p>
+                        <p id="text">Tekście</p>
+                        <p id="tag">Tagu</p>
+                    </div>
+
+            </div>
+
+            <div class="no-result-info" id="no-result-info">Brak wyników dla szukanej frazy. Spróbuj ponownie.</div>
+
+            <section class="photos" id="photos-section">
+                <ul class="photos-list" id="photos-list">
+                </ul>
+            </section>
+            <section class="exif-section transform" id="exif-section">
+                <div class="close-button" id="close-button"><i class="ion-close-circled"></i></div>
+                <h3>Szczegóły EXIF</h3>
+            </section>
+
+        </div>
+
+        <footer class="footer">
+                    <p class="copyright"><small>Developed by Paulina Kowal, 2017</small></p>
+                    <div class="icon">
+                        <a href="http://www.paulinakowal.pl" target="_blank"><i class="ion-ios-world ion-social-external-link"></i></a>
+                        <a href="https://github.com/kowalpaulina" target="_blank"><i class="ion-social-github ion-social-external-link"></i></a>
+                    </div>          
+        </footer>
+        <div class="flickr-api-info">Flickr Api</div>
+
+       
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>    
+<script src="script/main.js"></script>
+</body>
