@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F0F8FF;
+}
+
+.cat {
+	position: relative;
+	height: 300px;
+	width: 400px;
+	margin: 20px auto;
+}
+
+.ear {
+	position: absolute;
+	top: 0;
+
+	border-bottom: 50px solid #000000;
+	height: 0;
+	width: 0;
+}
+
+.ear.left {
+	left: 150px;
+	border-right: 50px solid transparent;
+}
+
+.ear.right {
+	right: 150px;
+	border-left: 50px solid transparent;
+}
+
+.head {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -55px;
+	height: 100px;
+	width: 110px;
+	border-radius: 100%;
+	background-color: #000000;
+	z-index: 9;
+}
+
+.eye {
+	position: absolute;
+	top: 30px;
+	height: 20px;
+	width: 20px;
+	background-image: radial-gradient(#ADFF2F, #FFD700);
+}
+
+.eye.left {
+	left: 20px;
+	border-radius: 5% 60% 5% 60%;
+	transform: skew(20deg) rotate(10deg);
+}
+
+.eye.right {
+	right: 20px;
+	border-radius: 60% 5% 60% 5%;
+	transform: skew(-20deg) rotate(-10deg);
+}
+
+.pupil {
+	position: absolute;
+	top: 2px;
+	width: 5px;
+	height: 15px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.pupil.left {
+	left: 10px;
+	transform: skew(-10deg);
+}
+
+.pupil.right {
+	right: 10px;
+	transform: skew(10deg);
+}
+
+.nose {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	margin-left: -10px;
+	z-index: 2;
+	border-top: 10px solid #FFBBFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 0;
+	border-radius: 70%;
+	z-index: 10;
+}
+
+.face {
+	position: absolute;
+	top: 85px;
+	height: 20px;
+	width: 25px;
+	border-top: transparent;
+	border-bottom: 2px solid #FFFFFF;
+	border-bottom-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	z-index: 10;
+}
+
+.face.left {
+	right: 50%;
+}
+
+.face.right {
+	left: 50%;
+}
+
+.corpus {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -150px;
+	height: 230px;
+	width: 300px;
+}
+
+.chest {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -90px;
+	border-bottom: 165px solid #000000;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	height: 0;
+	width: 0;
+	border-radius: 100%;
+	z-index: 8;
+}
+
+.butt {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -75px;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	background-color: #000000;
+	z-index: 10;
+}
+
+.tail {
+	position: absolute;
+	left: 15px;
+	height: 100px;
+	width: 130px;
+	border-radius: 100%;
+}
+.tail.one {
+	bottom: 10px;
+	background-color: #000000;
+}
+
+.tail.two {
+	bottom: 30px;
+	background-color: #F0F8FF;
+}
