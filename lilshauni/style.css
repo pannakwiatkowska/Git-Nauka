@@ -1,0 +1,29 @@
+@import url('reset.css');
+/* General Demo Style */
+
+div
+        {
+            
+            positoin: absolute;
+            width:1000px;
+            height:500px;
+            
+            background:#000;
+            color:#fff;
+            
+            font-family:Lato;
+            font-weight:900;
+            font-size:3.4em;
+            
+            text-align:center;
+            line-height:250px;
+            
+            transition:all 0.3s ease;
+            
+        }
+        
+.color:hover
+        {
+            background:#fafafa;
+			color:#000;
+        }
