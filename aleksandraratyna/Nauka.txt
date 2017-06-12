@@ -16,3 +16,5 @@ print('{0:.1f}'.format(d + b))
 # Concatenate and print the String variables on a new line
 # The 's' variable above should be printed first.
 print('{}{}'.format(s, c))
+
+Super!
